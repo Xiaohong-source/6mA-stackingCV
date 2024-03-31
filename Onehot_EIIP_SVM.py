@@ -7,7 +7,7 @@ from mlxtend.classifier import StackingCVClassifier
 import lightgbm as lgb
 import numpy as np
 from data_processing import Onehot_EIIP
-import matplotlib.pyplot as plt
+
 from sklearn.metrics import roc_curve,auc
 
 model = 'Onehot_EIIP_SVM'

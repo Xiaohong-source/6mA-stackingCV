@@ -10,7 +10,7 @@ def read_seq(filepath):
         line = line.splitlines()  # 去掉换行符
         lst1.append(line)
     for i in range(len(lst1)):  # 遍历lines
-        if i % 2 != 0:  # 把双数行存到test里面，单数行存到train里面
+        if i % 2 != 0:  
             seq.append(*lst1[i])
     return seq
 
